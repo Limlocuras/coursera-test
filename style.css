@@ -38,3 +38,120 @@ h3{
     float: right;
     border-color: black;
     font-size: 25px;
+    
+    
+}
+
+/*************INDIVIDUAL STYLE EACH BOX********************/
+#chicken{
+     background-color: #d59898;    
+}
+#beef{
+    background-color: #c14543;
+    color: white;
+    
+}
+#sushi {
+    background-color:#e5d198;
+}
+
+
+/********************** TABLET ****************************/
+ 
+@media (max-width: 991PX) and (min-width: 768px) {
+    .box{
+        flex: 40%;  
+       }
+    
+  }
+/********************** SMARTPHONE *************************/
+  
+@media (max-width: 767px) {
+   .box{
+    flex: 100%;
+    margin: 20px;
+   }
+  }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
