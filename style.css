@@ -1,103 +1,51 @@
-style.css
-/*color pick up by: https://imagecolorpicker.com/es*/
-/**********************COMMON STYLE**********************/
 *{
-    font-family: cursive, sans-serif;
-    box-sizing: border-box;        
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-h1{
+
+#header-nav{
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo{
+    font-size:xx-large;
+    color: black;
+    text-decoration: none;
+}
+ a:hover, a:focus, a:link{
+    text-decoration:none;
+ }
+
+
+
+
+#menu{
+    margin-top: 2%;
     text-align: center;
+    margin-bottom: 5%;
 }
-/**********************STYLING THE BOXES*****************/
-#main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    
-}
-.box{
-    
-    width:25%;
-    background-color: #999999;
-    border: 5px solid;
-    padding: 5px;
-    margin: 4%;
-    
-      
-}    
-/*****************COMMON STYLE THE H3**********************/
+
 h3{
-    
-    margin-top: -5px;
-    margin-right: -10px;
-    border: 5px solid;
-    border-top: 0px;
+    font-size: 30px;
     text-align: center;
-    width: 150px;
-    height: 40px;
-    float: right;
-    border-color: black;
-    font-size: 25px;
-    
+    margin-bottom: 20px;
+}
+
+#box1, #box2, #lastbox, #logo{
+    background-color: grey;
     
 }
 
-/*************INDIVIDUAL STYLE EACH BOX********************/
-#chicken{
-     background-color: #d59898;    
-}
-#beef{
-    background-color: #c14543;
-    color: white;
-    
-}
-#sushi {
-    background-color:#e5d198;
+p{
+    padding: 10px;
 }
 
-
-/********************** TABLET ****************************/
- 
-@media (max-width: 991PX) and (min-width: 768px) {
-    .box{
-        flex: 40%;  
-       }
-    
-  }
-/********************** SMARTPHONE *************************/
-  
-@media (max-width: 767px) {
-   .box{
-    flex: 100%;
-    margin: 20px;
-   }
-  }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+@media only screen and (min-width : 768px) {
+    .navbar-collapse.collapse {
+         display: none!important;
+     }
+ }
         
         
         
