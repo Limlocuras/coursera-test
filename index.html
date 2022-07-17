@@ -5,56 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     
     <title>Our Menu</title>
 </head>
 
-<body>
+<body >
 
-    <h1>Our Menu</h1>
-    
-    <div id="main">
-        
-        <div class="box" id="box1">
-                <h3 id="chicken" >Chicken</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ligula duis placerat, 
-                tempor inceptos nisi vehicula natoque sociis nunc augue magna morbi. 
-                Phasellus sociosqu morbi iaculis dignissim viverra congue nisl eleifend nunc hac quis, 
-                nec varius id duis purus dapibus laoreet venenatis sociis suspendisse. 
-                Vestibulum erat inceptos fringilla habitasse pulvinar lacinia sem tempus aenean curae, 
-                eleifend bibendum semper dui porttitor nibh quisque luctus vitae, 
-                per est lobortis ut parturient facilisi eros suspendisse fusce.
-            </p>
+    <header>
+      
+      <nav  id="header-nav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Food, LCC</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#menu" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            
+          <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="menu">
+            
+            <ul class=" nav navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#box1"><br class="hidden-xs">Chicken</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#box2">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#lastbox">Sushi</a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
+      </nav>
+        
+    </header>
 
-        <div class="box" id="box2">
+
+
+    <div class="container">
+    
+        <div class="col-md-12"><h1 id="menu">Our Menu</h1></div>
+
+    
+    
+  
+        
+         <div class="col-md-12" id="box1">
+                <h3 >Chicken</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Rhoncus dolor purus non enim. Proin sed libero enim sed faucibus. Eget arcu dictum varius duis at consectetur lorem. 
+                    Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. 
+                    Lacus vestibulum sed arcu non odio. Volutpat diam ut venenatis tellus in metus vulputate. Ultrices vitae auctor eu augue ut lectus arcu bibendum. 
+                    Purus viverra accumsan in nisl nisi scelerisque eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. 
+                    Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. 
+                    Pellentesque dignissim enim sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Eget nunc scelerisque viverra mauris in aliquam. 
+                    Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Ultricies mi eget mauris pharetra et ultrices. Dui ut ornare lectus sit. 
+                    Mattis vulputate enim nulla aliquet porttitor lacus. Aliquet sagittis id consectetur purus ut faucibus. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+                    Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Scelerisque purus semper eget duis at tellus at. 
+                    Id consectetur purus ut faucibus. Risus nullam eget felis eget. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. 
+                    Mattis pellentesque id nibh tortor id. Fringilla est ullamcorper eget nulla facilisi. Ut diam quam nulla porttitor massa id. 
+                    Nunc vel risus commodo viverra maecenas accumsan. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.
+                    Augue eget arcu dictum varius. Quis hendrerit dolor magna eget est lorem ipsum dolor. In pellentesque massa placerat duis ultricies lacus sed turpis.
+                    Elementum eu facilisis sed odio morbi quis. Faucibus scelerisque eleifend donec pretium. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. 
+                    At auctor urna nunc id. Mi quis hendrerit dolor magna. Dignissim enim sit amet venenatis. Eu feugiat pretium nibh ipsum consequat. Dictum sit amet justo donec. 
+                    Facilisi cras fermentum odio eu. Enim sit amet venenatis urna cursus eget. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. 
+                    Feugiat vivamus at augue eget arcu dictum varius duis.
+                </p>
+         </div>
+
+            <div class="col-md-12" id="box2">
 
                 <h3 id="beef">Beef</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ligula duis placerat, 
-                tempor inceptos nisi vehicula natoque sociis nunc augue magna morbi. 
-                Phasellus sociosqu morbi iaculis dignissim viverra congue nisl eleifend nunc hac quis, 
-                nec varius id duis purus dapibus laoreet venenatis sociis suspendisse. 
-                Vestibulum erat inceptos fringilla habitasse pulvinar lacinia sem tempus aenean curae, 
-                eleifend bibendum semper dui porttitor nibh quisque luctus vitae, 
-                per est lobortis ut parturient facilisi eros suspendisse fusce.
-            </p>
-        </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Rhoncus dolor purus non enim. Proin sed libero enim sed faucibus. Eget arcu dictum varius duis at consectetur lorem. 
+                    Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. 
+                    Lacus vestibulum sed arcu non odio. Volutpat diam ut venenatis tellus in metus vulputate. Ultrices vitae auctor eu augue ut lectus arcu bibendum. 
+                    Purus viverra accumsan in nisl nisi scelerisque eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. 
+                    Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. 
+                    Pellentesque dignissim enim sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Eget nunc scelerisque viverra mauris in aliquam. 
+                    Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Ultricies mi eget mauris pharetra et ultrices. Dui ut ornare lectus sit. 
+                    Mattis vulputate enim nulla aliquet porttitor lacus. Aliquet sagittis id consectetur purus ut faucibus. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+                    Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Scelerisque purus semper eget duis at tellus at. 
+                    Id consectetur purus ut faucibus. Risus nullam eget felis eget. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. 
+                    Mattis pellentesque id nibh tortor id. Fringilla est ullamcorper eget nulla facilisi. Ut diam quam nulla porttitor massa id. 
+                    Nunc vel risus commodo viverra maecenas accumsan. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.
+                    Augue eget arcu dictum varius. Quis hendrerit dolor magna eget est lorem ipsum dolor. In pellentesque massa placerat duis ultricies lacus sed turpis.
+                    Elementum eu facilisis sed odio morbi quis. Faucibus scelerisque eleifend donec pretium. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. 
+                    At auctor urna nunc id. Mi quis hendrerit dolor magna. Dignissim enim sit amet venenatis. Eu feugiat pretium nibh ipsum consequat. Dictum sit amet justo donec. 
+                    Facilisi cras fermentum odio eu. Enim sit amet venenatis urna cursus eget. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. 
+                    Feugiat vivamus at augue eget arcu dictum varius duis.
+                </p>
+         </div>
 
-        <div class="box" id="lastbox">
+            <div class="col-md-12" id="lastbox">
                 <h3 id="sushi">Sushi</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus ligula duis placerat, 
-                tempor inceptos nisi vehicula natoque sociis nunc augue magna morbi. 
-                Phasellus sociosqu morbi iaculis dignissim viverra congue nisl eleifend nunc hac quis, 
-                nec varius id duis purus dapibus laoreet venenatis sociis suspendisse. 
-                Vestibulum erat inceptos fringilla habitasse pulvinar lacinia sem tempus aenean curae, 
-                eleifend bibendum semper dui porttitor nibh quisque luctus vitae, 
-                per est lobortis ut parturient facilisi eros suspendisse fusce.
-            </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Rhoncus dolor purus non enim. Proin sed libero enim sed faucibus. Eget arcu dictum varius duis at consectetur lorem. 
+                    Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. 
+                    Lacus vestibulum sed arcu non odio. Volutpat diam ut venenatis tellus in metus vulputate. Ultrices vitae auctor eu augue ut lectus arcu bibendum. 
+                    Purus viverra accumsan in nisl nisi scelerisque eu. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras. 
+                    Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. 
+                    Pellentesque dignissim enim sit amet. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Eget nunc scelerisque viverra mauris in aliquam. 
+                    Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Ultricies mi eget mauris pharetra et ultrices. Dui ut ornare lectus sit. 
+                    Mattis vulputate enim nulla aliquet porttitor lacus. Aliquet sagittis id consectetur purus ut faucibus. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. 
+                    Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Scelerisque purus semper eget duis at tellus at. 
+                    Id consectetur purus ut faucibus. Risus nullam eget felis eget. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. 
+                    Mattis pellentesque id nibh tortor id. Fringilla est ullamcorper eget nulla facilisi. Ut diam quam nulla porttitor massa id. 
+                    Nunc vel risus commodo viverra maecenas accumsan. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.
+                    Augue eget arcu dictum varius. Quis hendrerit dolor magna eget est lorem ipsum dolor. In pellentesque massa placerat duis ultricies lacus sed turpis.
+                    Elementum eu facilisis sed odio morbi quis. Faucibus scelerisque eleifend donec pretium. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. 
+                    At auctor urna nunc id. Mi quis hendrerit dolor magna. Dignissim enim sit amet venenatis. Eu feugiat pretium nibh ipsum consequat. Dictum sit amet justo donec. 
+                    Facilisi cras fermentum odio eu. Enim sit amet venenatis urna cursus eget. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. 
+                    Feugiat vivamus at augue eget arcu dictum varius duis.
+                </p>
+         </div>
         </div>
-</div>
+    </div>
 </body>
 </html>
